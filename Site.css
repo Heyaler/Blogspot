@@ -1,0 +1,222 @@
+﻿.main-header {
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+    .main-header .main-search {
+        padding-top: 20px;
+    }
+
+    .main-header .main-nav {
+        margin-top: 15px;
+    }
+
+/*.main-header .main-nav ul {
+            list-style-type: none;
+            padding: 20px 0 0 0;
+            margin: 0;
+        }
+
+            .main-header .main-nav ul:after {
+                content: '';
+                clear: both;
+                overflow: hidden;
+                display: block;
+            }
+
+            .main-header .main-nav ul li {
+                float: left;
+            }
+
+
+                .main-header .main-nav ul li a {
+                    display: block;
+                    padding: 0;
+                    margin:0 15px;
+                    font-weight: bold;
+                    text-decoration: none;
+                }
+                 .main-header .main-nav ul li a:hover {
+                     color: brown;
+                }*/
+
+.main-content {
+}
+
+    .main-content .content {
+        margin: 15px 0;
+    }
+
+.right-menu {
+    margin: 15px;
+}
+
+.img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    /*-ms-opacity: 0.5;
+    opacity: 0.5;*/
+}
+
+.main-footer {
+    background-color: #e7e7e7;
+    color: #777;
+    /*position: absolute;*/
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    border: 1px solid #777;
+}
+.main-application {
+    margin: 20px 0;
+
+}
+DIV.pager { text-align:right; border-top: 2px solid silver;
+    padding: .5em 0 0 0; margin-top: 1em; }
+DIV.pager A { font-size: 1.1em; color: #666; text-decoration: none;
+      padding: 0 .4em 0 .4em;margin: 0 15px; position:absolute }
+DIV.pager A:hover { background-color: Silver; }
+DIV.pager A.selected { background-color: #353535; color: White; }
+@font-face {
+  font-family: KuranFont;
+  src: url('../../Content/fonts/shaikh_hamdullah_mushaf.ttf');
+}
+@font-face {
+  font-family: KuranFontAbay;
+  src: url('../../Content/fonts/kk_abay.ttf');
+}
+
+.qf_abay {
+  font-family: KuranFont;
+   font-size: 30px;
+  line-height: 50px;
+  font-weight: normal;
+    text-align: right;
+    /*display: inline-block;*/
+
+}
+.list-group {
+    padding: 10px;
+    margin:0;
+}
+.ayetNumImgHolder {
+ /*background-image: url("../../Content/img/ayetSayi.png");*/ 
+  /*background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;*/
+  
+  /*display: table-cell;
+  width: 70px;
+  height: 70px;
+  position: relative;
+  top: 3px;
+  float: left;
+  margin-right: 3px;*/
+}
+.ayetNumImgHolder .ayetNumAr {
+  position: relative;
+  font-family: KuranFont, "Traditional Arabic", "Times New Roman";
+  color: #ffffff;
+  font-size: 30px;
+  display: block;
+  /*width: 100%;
+  height: 100%;*/
+  text-align: center;
+}
+.Ayet-Number {
+  font-family: KuranFont, "Traditional Arabic", "Times New Roman";
+  color: #A38610;
+  cursor: pointer;
+  font-size: 22px;
+  white-space: nowrap;
+  -ms-word-break: keep-all;
+  word-break: keep-all;
+}
+.textQuranCompHolder .ayetNumImgHolder {
+  display: inline-block;
+  margin-left: 6px;
+  margin-right: 6px;
+  float: none;
+  position: static;
+}
+.textQuranCompHolder .ayetNumWr {
+  display: inline-block;
+}
+.textQuranCompHolder .ayetNumWr .ayetNumImgHolder {
+  display: block;
+}
+.textQuranCompHolder .besmeleArText {
+  text-align: center;
+  display: block;
+}
+.textQuranCompHolder .ayetTextWord {
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Chrome/Safari/Opera */
+  -khtml-user-select: none;
+  /* Konqueror */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+}
+.bs-callout {
+padding: 20px;
+margin: 20px 0;
+border: 1px solid #eee;
+border-left-width: 5px;
+border-radius: 3px;
+}
+.bs-callout h4 {
+margin-top: 0;
+margin-bottom: 5px;
+}
+.bs-callout p:last-child {
+margin-bottom: 0;
+}
+.bs-callout code {
+border-radius: 3px;
+}
+.bs-callout+.bs-callout {
+margin-top: -5px;
+}
+.bs-callout-default {
+border-left-color: #777;
+}
+.bs-callout-default h4 {
+color: #777;
+}
+.bs-callout-primary {
+border-left-color: #428bca;
+}
+.bs-callout-primary h4 {
+color: #428bca;
+}
+.bs-callout-success {
+border-left-color: #5cb85c;
+}
+.bs-callout-success h4 {
+color: #5cb85c;
+}
+.bs-callout-danger {
+border-left-color: #d9534f;
+}
+.bs-callout-danger h4 {
+color: #d9534f;
+}
+.bs-callout-warning {
+border-left-color: #f0ad4e;
+}
+.bs-callout-warning h4 {
+color: #f0ad4e;
+}
+.bs-callout-info {
+border-left-color: #5bc0de;
+}
+.bs-callout-info h4 {
+color: #5bc0de;
+}
